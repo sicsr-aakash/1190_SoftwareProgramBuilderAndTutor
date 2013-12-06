@@ -1,0 +1,33 @@
+<p>
+C++ provides a data structure, the array, which stores a fixed-size sequential collection of elements
+ of the same type. An array is used to store a collection of data,
+ but it is often more useful to think of an array as a collection of variables of the same type.
+</p> 
+
+<p> 
+A specific element in an array is accessed by an index. 
+All arrays consist of contiguous memory locations.
+ The lowest address corresponds to the first element and the highest address to the last element.
+</p>
+
+<b>Declaring Arrays:</b>
+<p>To declare an array in C++, the programmer specifies the type of the elements and the number of elements
+required by an array as follows:
+type arrayName [ arraySize ];
+This is called a single-dimension array. The arraySize must be an integer constant greater than zero and 
+type can be any valid C++ data type. 
+For example, to declare a 10-element array called balance of type double, use this statement:
+double balance[10];
+</p>
+
+<b>Initializing Arrays:</b>
+<p>You can initialize C++ array elements either one by one or using a single statement as follows:
+</p>
+<b>double balance[5] = {1000.0, 2.0, 3.4, 17.0, 50.0};</b>
+
+<p>
+If you omit the size of the array, an array just big enough to hold the initialization is created.
+ Therefore, if you write:
+</p>
+
+<b>double balance[] = {1000.0, 2.0, 3.4, 17.0, 50.0};</b>

@@ -1,0 +1,20 @@
+<b>The standard output stream (cout):</b>
+<p>
+The predefined object cout is an instance of ostream class. The cout object is said to be "connected to" the standard output device, which usually is the display screen. The cout is used in conjunction with the stream insertion operator, which is written as &lt&lt 
+</p>
+
+<b>The standard input stream (cin):</b>
+<p>
+The predefined object cin is an instance of istream class. The cin object is said to be attached to the standard input device, which usually is the keyboard. The cin is used in conjunction with the stream extraction operator, which is written as &gt&gt
+</p>
+
+
+<b>The standard error stream (cerr):</b>
+<p>
+The predefined object cerr is an instance of ostream class. The cerr object is said to be attached to the standard error device, which is also a display screen but the object cerr is un-buffered and each stream insertion to cerr causes its output to appear immediately.
+</p>
+
+<b>The standard log stream (clog):</b>
+<p>
+The predefined object clog is an instance of ostream class. The clog object is said to be attached to the standard error device, which is also a display screen but the object clog is buffered. This means that each insertion to clog could cause its output to be held in a buffer until the buffer is filled or until the buffer is flushed.
+</p>

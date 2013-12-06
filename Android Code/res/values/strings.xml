@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FirstApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world"> Software Program Builder and Tutor </string>
+    <string name="login">Enter Application</string>
+    <string name="members"> By : Sachin , Amrut , Prashant </string>
+    <string name="title_activity_abc_activity"> Welcome </string>
+    <string name="afterloginheader"> Please select an option </string>
+    <string name="builder"> Builder Mode </string>
+    <string name="tutor"> Tutor Mode </string>
+    <string name="title_activity_option_landup">OptionLandup</string>
+    <string name="builderHeader"> Welcome to Builder Mode </string>
+    <string name="title_activity_tutor">TutorActivity</string>
+    <string name="country_prompt"> Options </string>
+    <string name="demo"> Show Demo </string>
+    <string name="Run"> Run Programme </string>
+    <string name="co"> Compiler_Output </string>
+
+    <string-array name="country_arrays">
+        <item>Basic_Template</item>
+        <item>Variables</item>
+        <item>Functions</item>
+        <item>Classes</item>
+        <item>Object</item>
+        <item>Arrays</item>
+        <item>DataTypes</item>
+        <item>Constants</item>
+        <item>Input/Output</item>
+    </string-array>
+
+    <string name="title_activity_builder">Builder</string>
+    <string name="title_activity_tutor_select_topic">TutorSelectTopicActivity</string>
+    <string name="title_activity_tutor_detail">TutorDetailActivity</string>
+
+</resources>

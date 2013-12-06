@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.firstapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.firstapp.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.firstapp.Abc_activity"
+            android:label="@string/title_activity_abc_activity" >
+        </activity>
+        <activity
+            android:name="com.firstapp.OptionLandup"
+            android:label="@string/title_activity_option_landup" >
+        </activity>
+        <activity
+            android:name="com.firstapp.TutorActivity"
+            android:label="@string/title_activity_tutor" >
+        </activity>
+        <activity
+            android:name="com.firstapp.Builder"
+            android:label="@string/title_activity_builder" >
+        </activity>
+        <activity
+            android:name="com.firstapp.TutorSelectTopicActivity"
+            android:label="@string/title_activity_tutor_select_topic" >
+        </activity>
+        <activity
+            android:name="com.firstapp.TutorDetailActivity"
+            android:label="@string/title_activity_tutor_detail" >
+        </activity>
+    </application>
+
+</manifest>

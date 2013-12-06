@@ -1,0 +1,17 @@
+<p>
+The following table shows the variable type, how much memory it takes to store the value in memory, and what is maximum and minimum vaue which can be stored in such type of variables.
+</p>
+
+<br>char            = 1 byte   
+<br>unsigned char   = 1byte    
+<br> signed char    = 1byte   	
+<br> int	        = 4bytes 
+<br> unsigned int   = 4bytes    
+<br> signed int     = 4bytes     
+<br> short int      = 2bytes    
+<br> long int	    = 4bytes	
+<br> signed long int = 4bytes	
+<br> unsigned long int	= 4bytes	
+<br> float	            = 4bytes	
+<br> double		        = 8bytes		
+<br> long double	    =  8bytes	
